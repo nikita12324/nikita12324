@@ -1,4 +1,51 @@
+body {
+	
+    font-family: 'Ranchers', cursive;
+    
+}
 .title{
-	font-size: 50px;
 	text-align: center;
+	margin-top: 15px;
+	background-color: #8007; 
+}
+
+.o_potato_div{
+	background-color: orange;
+	width: 540px;
+	height: 440px;
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+
+.o_potato{
+	width: 250px;
+	height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.o_potato{
+	height: 10em;
+    position: relative;
+}
+
+.o_potato{
+	margin: 0;
+    top: 20%;
+    left: 20%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+
+.o_potato{
+	float: left;
+	padding-left: 30px;
+	margin: 7px 7px 7px 7px;
+}
+
+.o_potato_text{
+	padding-left: 20px;
 }
