@@ -169,6 +169,7 @@ body {
 
 .footer{
 	background: #000;
+	padding-top: 20px;
 }
 .footer_info{
 	color: #fff;
@@ -178,4 +179,13 @@ body {
 	width: 184px;
 	margin: 0 auto;
 	text-align: center;
+}
+
+.hed{
+	padding-left: 40px;
+}
+
+.target:hover{
+    animation: pulse;
+    animation-duration: 0.6s;
 }
