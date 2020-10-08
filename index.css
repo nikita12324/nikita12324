@@ -5,7 +5,7 @@ body {
 }
 
 .header{
-    background-image: url("img/main_background.jpg");
+    background-image: url("img/main_background.png");
 	background-repeat: no-repeat;
 }
 
@@ -20,16 +20,21 @@ body {
 
 .o_potato_div{
 	background-image: url("img/background.jpg");
-	width: 540px;
-	height: 420px;
+	width: 740px;
+	height: 320px;
 	border-radius: 0px;
 	margin-left: 125px;
 	margin-top: 40px;
 }
 
 .o_potato_div:hover{
-    background-image: url("img/white.jpeg");
+    background-image: url("img/background2.jpg");
     transition: all ease 0.3s;
+}
+
+.o_potato_div:hover{
+	animation: pulse;
+	animation-duration: 0.6s;
 }
 
 .o_potato{
@@ -38,8 +43,8 @@ body {
 	height: 10em;
     position: relative;
 	float: left;
-    top: 20%;
-    left: 20%;
+    top: 28%;
+    left: 15%;
     transform: translate(-50%, -50%);
     margin-right: -50%;
     padding-left: 30px;
@@ -53,7 +58,7 @@ body {
 
 .v_potato_div{
 	background-image: url("img/background.jpg");
-	width: 640px;
+	width: 740px;
 	height: 260px;
 	border-radius: 0px;
 	margin-top: 40px;
@@ -61,8 +66,13 @@ body {
 }
 
 .v_potato_div:hover{
-    background-image: url("img/white.jpeg");
-    transition: all ease 0.3s;
+    background-image: url("img/background2.jpg");
+    transition: all ease 0.2s;
+}
+
+.v_potato_div:hover{
+	animation: pulse;
+	animation-duration: 0.6s;
 }
 
 .v_potato{
@@ -71,8 +81,8 @@ body {
 	height: 10em;
     position: relative;
 	float: left;
-    top: 36%;
-    left: 17%;
+    top: 35%;
+    left: 15%;
     transform: translate(-50%, -50%);
     margin-right: -50%;
     padding-left: 30px;
@@ -89,7 +99,12 @@ body {
 }
 
 .d_potato_div:hover{
-    background-image: url("img/white.jpeg");
+	animation: pulse;
+	animation-duration: 0.6s;
+}
+
+.d_potato_div:hover{
+    background-image: url("img/background2.jpg");
     transition: all ease 0.3s;
 }
 
@@ -100,7 +115,7 @@ body {
     position: relative;
 	float: left;
     top: 26%;
-    left: 14%;
+    left: 15%;
     transform: translate(-50%, -50%);
     margin-right: -50%;
     padding-left: 30px;
@@ -117,8 +132,13 @@ body {
 }
 
 .s_potato_div:hover{
-    background-image: url("img/white.jpeg");
+    background-image: url("img/background2.jpg");
     transition: all ease 0.3s;
+}
+
+.s_potato_div:hover{
+	animation: pulse;
+	animation-duration: 0.6s;
 }
 
 .s_potato{
@@ -135,19 +155,13 @@ body {
 	margin: 7px 7px 7px 7px;
 }
 
-
-
-
-
-
 .back{
 	margin: 0px -140px 0px 0px;
 	width: 95px;
-	left: 50%;
+	left: 57.1%;
 	background-image: url("img/background.jpg");
 	position: relative;
-	border-radius: 10px;
-	bottom: 15px;
+	bottom: 0px;
 }
 .back:hover{
     background-image: url("img/white.jpeg");
