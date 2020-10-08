@@ -161,7 +161,7 @@ body {
 	left: 57.1%;
 	background-image: url("img/background.jpg");
 	position: relative;
-	bottom: 0px;
+	top: 9.3px;
 }
 .back:hover{
     background-image: url("img/white.jpeg");
